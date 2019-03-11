@@ -58,8 +58,15 @@ list2 = ['bbb',333,111,3.14,(4,5)]
 def compare(a,b):
     for x in list1:  # 取出list1的第一个字符
         if x in list2:
+            result = 1  ## 要有返回值，不然单独一个print没意义
+            # print(x,'both in list1 and list2')
+        else:
+            result = 0
+            # print(x, 'only in list1')
+        if result:
             print(x,'both in list1 and list2')
         else:
             print(x, 'only in list1')
 
-compare(list1,list2)
+compare(list1,list2)  ## 这个本身就是有返回值，print反倒会产生None
+
