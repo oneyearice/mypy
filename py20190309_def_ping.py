@@ -22,7 +22,7 @@ def ping(host):
         return 0
         # print(result)
 if __name__ == '__main__':
-    if ping('192.168.224.2'):
-        print('192.168.224.2通')
+    if ping('192.168.1.1'):
+        print('192.168.1.1通')
     else:
         print('192.168.224.2'+' '+'不通!')

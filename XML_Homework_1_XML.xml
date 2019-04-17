@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<root>
+   <公司 name="乾颐堂">
+      <部门 name="Python">
+         <师资>
+            <老师 name="秦柯"/>
+            <老师 name="教主"/>
+         </师资>
+         <课程>
+            <课程名 name="Python基础"/>
+            <课程名 name="Python网络编程  第一部分  经典协议"/>
+            <课程名 name="Python网络编程  第二部分  HTTP协议"/>
+            <课程名 name="Python网络编程  第三部分  自动化运维"/>
+         </课程>
+      </部门>
+   </公司>
+</root>
