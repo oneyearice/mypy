@@ -48,7 +48,7 @@ print('文件中包含“qytang"关键字的文件为:')
 for root,dirs,files in os.walk(os.getcwd()+'/test',topdown=False):
     # print(files)
     for i in range(len(files)):
-        if 'qytang' in files[i]:
+        if 'qytang' in files[i]:  # 可能不对，qytang in files，巧了这个files的名字也是qytang而已
             print(files[i])
 
 
